@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section img{
+    width: 24%;
+    margin: 3px;
+    transition: .5s;
+}
+section img:hover{
+filter: brightness(125%);
+}
+
+@media screen and (max-width:1024px){
+    section img{
+        width: 25%;
+        margin: 3px;
+    }
+}
+@media screen and (max-width:768px){
+    section img{
+        width: 48%;
+    }
+}
+@media screen and (max-width:425px){
+    section img{
+        width: 50%;
+    }
+}
